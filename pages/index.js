@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
+import CardColumn from '../components/CardColumn';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -45,7 +46,9 @@ export default function Index({ posts, globalData }) {
             </li>
           ))}
         </ul>
+        
       </main>
+      
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
