@@ -1,6 +1,6 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import CardColumn from '../components/CardColumn';
+
 
 class MyDocument extends Document {
   render() {
@@ -13,7 +13,6 @@ class MyDocument extends Document {
         >
           <Main />
           <NextScript />
-          <CardColumn></CardColumn>
         </body>
       </Html>
     );

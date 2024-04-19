@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
-import CardColumn from '../components/CardColumn';
+
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
