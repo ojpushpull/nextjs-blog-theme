@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 
-
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -48,7 +47,7 @@ export default function Index({ posts, globalData }) {
         </ul>
         
       </main>
-      
+
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
